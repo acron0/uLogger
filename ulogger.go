@@ -80,7 +80,7 @@ func main() {
 
 func startServer(portStr string) error {
 			
-	log.Print("[ULOGGER!] Starting server on port " + portStr);
+	log.Print("[ULOGGER] Starting server on port " + portStr);
 	
 	// create regexp-based handler
 	h := new( RegexpHandler)	
